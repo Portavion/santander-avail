@@ -1,0 +1,33 @@
+.dockingStationContainer {
+  background-color: antiquewhite;
+  color: black;
+  /*width: 190px;*/
+
+  /*height: 254px;*/
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  margin-bottom: 10px;
+}
+h3 {
+  padding-bottom: 0.5rem;
+}
+
+h3,
+p {
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+}
+p.available {
+  color: green;
+}
+p.empty {
+  color: red;
+}
