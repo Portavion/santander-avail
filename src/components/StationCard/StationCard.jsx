@@ -10,10 +10,10 @@ const StationCard = ({ stationName, bikeLeft, spaceLeft, ebikeLeft }) => {
     <div className={styles.dockingStationContainer}>
       <h3>{stationName}</h3>
       <p className={bikeAvailable ? styles.available : styles.empty}>
-        Free bikes:{bikeLeft - ebikeLeft}
+        Bikes:{bikeLeft - ebikeLeft}
       </p>
       <p className={ebikeAvailable ? styles.available : styles.empty}>
-        Free e-bikes:{ebikeLeft}
+        E-bikes:{ebikeLeft}
       </p>
       <p className={spaceAvailable ? styles.available : styles.empty}>
         Empty spaces:{spaceLeft}
