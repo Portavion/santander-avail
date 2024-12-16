@@ -46,7 +46,7 @@ function App() {
   });
   return (
     <>
-      <h1>Stationz</h1>
+      <h2>Stationz</h2>
       {stationCards}
       <Footer></Footer>
     </>
