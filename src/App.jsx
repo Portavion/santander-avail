@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 import { StationCard } from "./components/StationCard/StationCard.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   const [stations, setStations] = useState([]);
@@ -47,6 +48,7 @@ function App() {
     <>
       <h1>Stationz</h1>
       {stationCards}
+      <Footer></Footer>
     </>
   );
 }
